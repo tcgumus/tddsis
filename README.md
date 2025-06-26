@@ -1,17 +1,51 @@
-# eddie
-a shipboard computer
+# Türkçe Doğal Dil Modeli (Yapay Zeka) Sesli İletişim Uygulaması: TDDSIS
 
-<img src="https://github.com/user-attachments/assets/6094f3d4-e878-43a2-935c-5812edb00f7b" width="50%">
+### **Hakkında:**
 
-# Kurulum
-OpenAI GPT-4 + Whisper + ElevenLabs destekli sesli asistan.
+OpenAI GPT-4, Whisper ve ElevenLabs teknolojileri ile güçlendirilmiş olan projemiz, Türkçe dilinde sesli etkileşim kurmanızı sağlayan bir sesli asistan uygulamasıdır. Python tabanlı olarak geliştirilen bu açık kaynak projesi, kullanıcıların sesli iletişim deneyimini en üst düzeye çıkarmayı hedefler.
 
-```python
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-```
+### **Kurulum Talimatları:**
 
-`python -m eddie.main` ile çalıştır
+1. **Sanallaştırma Ortamı Oluşturma:**
 
-`pyinstaller --onefile --windowed --name Eddie eddie\gui.py` ile exe oluştur.
+   ```bash
+   python -m venv venv
+   ```
+
+2. **Sanallaştırma Ortamını Aktifleştirme:**
+
+   Windows için:
+   ```bash
+   venv\Scripts\activate
+   ```
+
+3. **Gereksinimlerin Yüklenmesi:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Uygulamayı Başlatma:**
+
+   ```bash
+   python -m eddie.main
+   ```
+
+5. **Yürütülebilir Dosya Oluşturma:**
+
+   ```bash
+   pyinstaller --onefile --windowed --name Eddie eddie\gui.py
+   ```
+
+### **Proje Ekibi:**
+
+Bu yenilikçi ve faydalı konsept çalışma aşağıdaki ekip üyeleri tarafından tasarlanmış ve geliştirilmiştir:
+
+- @tcgumus
+- @ulascanugras
+- @berrinuzun
+- @dogapaksoy
+- @ranacetinkaya
+- @yunuseozcelik
+
+TDDSIS, açık kaynak kodlu bir proje olarak topluluğa fayda sağlamayı amaçlamaktadır. Katkılarınızı ve geri bildirimlerinizi bekliyoruz!
