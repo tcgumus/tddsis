@@ -1,0 +1,13 @@
+openai
+sounddevice
+numpy
+wave
+requests
+elevenlabs
+pydub
+soundfile
+matplotlib
+reportlab
+psutil
+GPUtil
+sqlite3
